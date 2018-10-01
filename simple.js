@@ -1,7 +1,7 @@
 $(function(){
   $("#numGen").click(function(){
-    var a = $("#gen1").val();
-    var b = $("#gen2").val();
+    var a = prompt("Enter 1st Number.");
+    var b = prompt("Enter 2nd Number.");
     numGen(a, b);
   });
 });
